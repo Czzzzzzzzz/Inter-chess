@@ -556,7 +556,6 @@ public class ChessPad extends Panel implements MouseListener, ActionListener {
 	}
 
 	// 捕获下棋事件
-	@SuppressWarnings("deprecation")
 	public void mousePressed(MouseEvent e) {
 		if (e.getModifiers() == InputEvent.BUTTON1_MASK) {
 			chessX_POS = (int) e.getX();

@@ -24,7 +24,6 @@ public class Jdbc {
 	String path = "dbinfo.properties";
 	String code;// 兑换码
 
-	@SuppressWarnings("deprecation")
 	public Jdbc() {
 		try {
 			// 加载配置文件dbinfo.properties

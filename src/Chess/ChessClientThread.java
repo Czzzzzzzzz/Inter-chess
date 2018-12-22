@@ -14,7 +14,6 @@ public class ChessClientThread extends Thread {
 	}
 
 	// 信息接收函数
-	@SuppressWarnings("deprecation")
 	public void dealWithMsg(String msgReceived) {
 		if (msgReceived.startsWith("/peer ")) { // 收到信息为游戏中的等待时
 			chessClient.chessPad.chessPeerName = msgReceived.substring(6);

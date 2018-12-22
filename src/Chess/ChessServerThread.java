@@ -300,7 +300,6 @@ public class ChessServerThread extends Thread {
 					// 判断该用户是否在下棋
 					if (chessPlayGameHash.containsKey(username + "[inchess]")) {
 						// 获取台号
-						@SuppressWarnings("unused")
 						String number = (String) chessPlayGameHash.get(username + "[inchess]");
 						// 获取对手用户名
 						String opponame = (String) chessPeerHash.get(username);
